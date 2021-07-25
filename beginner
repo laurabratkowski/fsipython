@@ -1,0 +1,19 @@
+if, else and elif
+x = 10
+y = 25
+if x > 3 and y > 13:
+    print ('Both conditions are correct')
+if x <= 3 or y <= 13:
+    print ('At least one of the conditions is false')
+Both conditions are correct
+
+x = 200
+if x > 200: 
+    print ("Big")
+elif x > 100 and x <= 200:
+    print ("Average")
+elif x >= 0 and x <= 100:
+    print ("Small")  
+else:
+    print ("Negative")
+Average
