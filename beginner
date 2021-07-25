@@ -17,3 +17,62 @@ elif x >= 0 and x <= 100:
 else:
     print ("Negative")
 Average
+
+conditional statements and functions
+def compare_the_two(y):
+    if y > 100:
+        return "Greater"
+    if y < 100:
+        return "Less"
+    else:
+        return "Equal"
+
+compare_the_two(25)
+'Less'
+compare_the_two(250)
+'Greater'
+compare_the_two(100)
+'Equal'
+
+def compare(a,b):
+    if a > b:
+        return ('Greater')
+    elif a < b:
+        return ('Less')
+    else:
+        return ('Equal')
+
+compare(30,20)
+'Greater'
+compare(50,50)
+'Equal'
+compare(100,160)
+'Less'
+
+tuples
+def ret(x, y):
+    a = x * y
+    p = 2 * (x + y)
+    print ("Area and the Perimeter of the rectangle")
+    return a, p
+ret(10,20)
+
+Area and the Perimeter of the rectangle
+(200, 60)
+
+ret(2,6)
+Area and the Perimeter of the rectangle
+(12, 16)
+
+ret(50,80)
+Area and the Perimeter of the rectangle
+(4000, 260)
+
+def triangule(b, h):
+    area = ((b *h)/2)
+    print ("The area of triangule is")
+    return area
+    
+triangule(5,10)
+The area of triangule is
+25.0
